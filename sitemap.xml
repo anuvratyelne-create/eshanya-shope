@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
   <url>
     <loc>https://eshanya-shope.netlify.app/</loc>
-    <priority>1.00</priority>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
+
+  <!-- Services section -->
+  <url>
+    <loc>https://eshanya-shope.netlify.app/#services</loc>
+    <priority>0.9</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Gallery section -->
+  <url>
+    <loc>https://eshanya-shope.netlify.app/#gallery</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- Contact section -->
+  <url>
+    <loc>httpsanya-shope.netlify.app/#contact</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Slider Images -->
+  <url>
+    <loc>https://eshanya-shope.netlify.app/</loc>
+    <image:image>
+      <image:loc>https://eshanya-shope.netlify.app/image/image12.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://eshanya-shope.netlify.app/image/image10.jpeg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://eshanya-shope.netlify.app/image/image2.jpeg</image:loc>
+    </image:image>
+  </url>
+
+  <!-- Add more images below (optional) -->
+  
 </urlset>
